@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.dulz.task1fx.CalculatorController">
+   <children>
+      <Button layoutX="275.0" layoutY="247.0" mnemonicParsing="false" onAction="#answer" text="=">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtFstNum" layoutX="226.0" layoutY="70.0" promptText="Enter No 1 :" />
+      <TextField fx:id="txtSecNum" layoutX="225.0" layoutY="122.0" promptText="Enter No 1 :" />
+      <Button layoutX="275.0" layoutY="175.0" mnemonicParsing="false" onAction="#puls" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="320.0" mnemonicParsing="false" onAction="#minus" prefHeight="51.0" prefWidth="49.0" text="-">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="247.0" mnemonicParsing="false" onAction="#devide" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="353.0" layoutY="247.0" mnemonicParsing="false" onAction="#multiply" text="x">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
