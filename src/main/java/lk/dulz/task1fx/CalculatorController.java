@@ -59,6 +59,7 @@ public class CalculatorController {
     void answer(ActionEvent event) {
 
         System.out.println("The Result : "+ result);
+        System.out.println("Binara");
 
     }
 
