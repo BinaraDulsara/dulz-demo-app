@@ -60,7 +60,7 @@ public class CalculatorController {
 
         System.out.println("The Result : "+ result);
 
-        System.out.println("Binara");
+        System.out.println("Dulsara");
 
 
 
